@@ -7,4 +7,8 @@ function login(username, password) {
     }
 }
 
-module.exports = { login };
+function logout() {
+    return "User logged out";
+}
+
+module.exports = { login, logout };
